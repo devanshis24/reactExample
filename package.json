@@ -1,0 +1,33 @@
+{
+  "name": "fullstackapp",
+  "version": "1.0.0",
+  "description": "A full stackapplication with Node, Express, MOngo and React.\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon --exec babel-node server.js --ignore public/",
+    "dev":"webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devanshis24/reactExample.git"
+  },
+  "author": "Devanshi Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devanshis24/reactExample/issues"
+  },
+  "homepage": "https://github.com/devanshis24/reactExample#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongodb": "^2.2.26",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.0.1",
+    "nodemon": "^1.11.0",
+    "webpack": "^2.5.1"
+  }
+}
