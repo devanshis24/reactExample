@@ -1,0 +1,22 @@
+ {
+  "books":[
+      {
+        "id": 1,
+        "title":"Coders at Work: Reflections on the Craft of Programming",
+        "price":2434,
+        "authorId":4
+      },
+      {
+        "id": 2,
+        "title":"The Mythical Man-Month: Essays on Software Engineering",
+        "price":2399,
+        "authorId":15
+      },
+      {
+        "id": 3,
+        "title":"Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability",
+        "price":2250,
+        "authorId":22
+      }
+    ]
+}

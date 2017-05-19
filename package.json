@@ -4,8 +4,8 @@
   "description": "A full stackapplication with Node, Express, MOngo and React.\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon --exec babel-node server.js --ignore public/",
-    "dev":"webpack -wd"
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
   },
   "repository": {
     "type": "git",
@@ -18,13 +18,20 @@
   },
   "homepage": "https://github.com/devanshis24/reactExample#readme",
   "dependencies": {
+    "ejs": "^2.5.6",
     "express": "^4.15.3",
+    "json-loader": "^0.5.4",
     "mongodb": "^2.2.26",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
+    "babel-cli": "^6.24.1",
     "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "eslint": "^3.19.0",
     "eslint-plugin-react": "^7.0.1",
     "nodemon": "^1.11.0",
